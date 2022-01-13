@@ -1585,11 +1585,11 @@ input, select, textarea {
 		border-bottom: solid 1px #272e31;
 		padding: 45px 0 45px 0;
 		text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.75);
-		color: #a0a8ab;
+		color: #eaf2f5;
 	}
 
 		#features h2 {
-			font-size: 1.25em;
+			font-size: 2.5em;
 			color: #fff;
 			margin: 0 0 0.25em 0;
 		}
@@ -1597,7 +1597,14 @@ input, select, textarea {
 		#features a {
 			color: #e0e8eb;
 		}
-
+  		#features b {
+      font-size: 1.40em;
+			color: #e0e8eb;
+		}  
+    #features p {
+      font-size: 1.20em;
+			color: #e0e8eb;
+		}  
 		#features strong {
 			color: #fff;
 		}
@@ -1616,10 +1623,15 @@ input, select, textarea {
 			box-shadow: 2px 2px 2px 1px rgba(128, 128, 128, 0.1);
 			margin: 0 0 25px 0;
 		}
-
+		#content h1 {
+			font-size: 2.0em;
+      text-decoration: underline;
+			color: #090a0a;
+			margin: 0 0 0.25em 0;
+		}
 		#content h2 {
-			font-size: 1.8em;
-			color: #373f42;
+			font-size: 1.60em;
+			color: #090a0a;
 			margin: 0 0 0.25em 0;
 		}
 
@@ -1689,12 +1701,13 @@ input, select, textarea {
 		box-shadow: inset 0px 1px 0px 0px #e0e4e7;
 		text-align: center;
 		padding: 45px 0 80px 0;
-		color: #8d9ca3;
+		color: #000000;
 		text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.5);
+    font-size: 1.25em;
 	}
 
 		#copyright a {
-			color: #8d9ca3;
+			color: #101111;
 		}
 
 /* Large */
