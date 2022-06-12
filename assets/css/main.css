@@ -1598,7 +1598,11 @@ input, select, textarea {
 			color: #fff;
 			margin: 0 0 0.25em 0;
 		}
-
+#features h3 {
+			font-size: 1.8em;
+			color: #fff;
+			margin: 0 0 0.25em 0;
+		}
 		#features a {
 			color: #e0e8eb;
 		}
@@ -1607,6 +1611,10 @@ input, select, textarea {
 			color: #e0e8eb;
 		}  
     #features p {
+      font-size: 1.20em;
+			color: #e0e8eb;
+		}  
+    #features li {
       font-size: 1.20em;
 			color: #e0e8eb;
 		}  
