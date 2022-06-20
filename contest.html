@@ -90,7 +90,29 @@
                                 </ul>
                 <h3>Date:</h3>
                 <p>16 June 2022 to 21 June 2022.</p>
-             <a href="https://forms.office.com/r/tX02rvJfA3" class="button-large">Register Now!</a>
+
+                             <a href="https://forms.office.com/r/tX02rvJfA3" class="button-large">Submit your Blog here</a>
+<p> </p>
+                <h3>Register for final event:</h3>
+<div id="eventbrite-widget-container-368248008707"></div>
+<script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
+
+<script type="text/javascript">
+    var exampleCallback = function() {
+        console.log('Order complete!');
+    };
+
+    window.EBWidgets.createWidget({
+        // Required
+        widgetType: 'checkout',
+        eventId: '368248008707',
+        iframeContainerId: 'eventbrite-widget-container-368248008707',
+
+        // Optional
+        iframeContainerHeight: 425,  // Widget height in pixels. Defaults to a minimum of 425px if not provided
+        onOrderComplete: exampleCallback  // Method called when an order has successfully completed
+    });
+</script>
 
 
 </div>
