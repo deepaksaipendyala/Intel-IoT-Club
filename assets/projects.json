@@ -1,0 +1,66 @@
+[
+    {
+        "Name": "A.Srinithi",
+        "Rollnumber": "CB.EN.U4CCE21073",
+        "Title": "Music Genre Classification",
+        "ProjectLink": "https://github.com/supersonicshock/music-genre-classification",
+        "DevMesh": "https://devmesh.intel.com/projects/music-genre-classification",
+        "ImageURL" : "https://dmtyylqvwgyxw.cloudfront.net/instances/132/uploads/images/custom_image/image/57871/wide_blob"
+    },
+    {
+        "Name": "Aravindhakumar M",
+        "Rollnumber": "CB.EN.U4ARE21006",
+        "Title": "Image Processing of potted plants using Yolo algorithm",
+        "ProjectLink": "https://github.com/Pirater-Ak-47/Greenguard",
+        "DevMesh": "https://devmesh.intel.com/projects/potted-plant-detection-algorithm-using-yolo",
+        "ImageURL": "https://dmtyylqvwgyxw.cloudfront.net/instances/132/uploads/images/photo/image/70937/space_listing_f2a698cf-216d-49b1-ae3f-f4308450582e."
+    },
+    {
+        "Name": "Balasuriya R",
+        "Rollnumber": "CB.EN.U4AIE21105",
+        "Title": "Anomaly detection",
+        "ProjectLink": "https://github.com/balasuriyaranganathan/Anomaly-detection",
+        "DevMesh": "https://devmesh.intel.com/users/balasuriya-r",
+        "ImageURL": "https://dmtyylqvwgyxw.cloudfront.net/instances/132/uploads/images/photo/image/70935/space_listing_759c6029-8ede-4c6d-be3b-d0fd7f86f2c8."
+    },
+    {
+        "Name": "Dilip Parasu",
+        "Rollnumber": "CB.EN.U4AIE21009",
+        "Title": "Realtime Semantic Segmentation",
+        "ProjectLink": "https://github.com/SuperSecureHuman/Segmentation_OneAPI",
+        "DevMesh": "https://devmesh.intel.com/projects/semantic-segmentation-with-openvino",
+        "ImageURL": "https://huggingface.co/tasks/assets/image-segmentation/image-segmentation-output.png"
+    },
+    {
+        "Name": "Komal Sai Anurag Pasumarthy",
+        "Rollnumber": "CB.EN.U4AIE21039",
+        "Title": "Air Pressure System (APS) Sensor Fault Detection",
+        "ProjectLink": "https://github.com/saianurag234/APS-Sensor-Fault-Detection",
+        "DevMesh": "https://devmesh.intel.com/projects/air-pressure-system-aps-sensor-fault-detection",
+        "ImageURL": "https://dmtyylqvwgyxw.cloudfront.net/instances/132/uploads/images/custom_image/image/57866/wide_blob"
+    },
+    {
+        "Name": "M. Kalyana Sundaram",
+        "Rollnumber": "CB.EN.U4AIE21120",
+        "Title": "Image Upscaling with OpenVINO",
+        "ProjectLink": "https://github.com/balasuriyaranganathan/Anomaly-detection",
+        "DevMesh": "https://devmesh.intel.com/projects/image-upscaling-with-openvino",
+        "ImageURL": "https://dmtyylqvwgyxw.cloudfront.net/instances/132/uploads/images/photo/image/70916/space_listing_fd834e31-8af1-4cf7-a933-97a826634160."
+    },
+    {
+        "Name": "Navabhaarathi",
+        "Rollnumber": "CB.EN.U4AIE21036",
+        "Title": "Anomaly Detection in computer network using Autoencoders",
+        "ProjectLink": "https://github.com/nb0309/Network-Traffic-Analysis-using-Machine-learning",
+        "DevMesh": "https://devmesh.intel.com/projects/anomaly-detection-using-autoencoders",
+        "ImageURL": "https://dmtyylqvwgyxw.cloudfront.net/instances/132/uploads/images/photo/image/70935/space_listing_759c6029-8ede-4c6d-be3b-d0fd7f86f2c8."
+    },
+    {
+        "Name": "Sarvesh Shashikumar",
+        "Rollnumber": "CB.EN.U4AIE21163",
+        "Title": "Accident-Detection-with-Resnet50",
+        "ProjectLink": "https://github.com/SSKlearns/Accident-Detection-with-Resnet50",
+        "DevMesh": "https://devmesh.intel.com/projects/accident-detection-using-resnet-50-and-gradio",
+        "ImageURL": "https://dmtyylqvwgyxw.cloudfront.net/instances/132/uploads/images/custom_image/image/57881/wide_blob"
+    }
+]

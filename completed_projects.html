@@ -1,0 +1,114 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>Intel IoT Club</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="INTEL IoT Club">
+    <meta property="og:description" content="This is Intel IoT Club 's Official Website">
+    <meta property="og:image" content="/images/favicon.ico">
+    <meta charset="utf-8" />
+    <meta name="description" content="This is Intel IoT Club 's Official Website" />
+    <meta name="keywords"
+        content="intel iot platform,intel iot kit,intel iot partners,Deepak,Deepaksai,Deepaksaipendyala,deepak amrita,deepak iot club,deepak intel iot club,deepak intel student ambassador, intel iot club,intel,intelai,intel iot board,intel iot developer kit,intel iot certification,intel iot club,intel and iot,intel iot development boards,intel iot cloud,intel iot careers,intel iot devkit,intel iot developer salary in india,intel iot devcloud,intel iot edge,intel iot group,intel iot github,intel iot hardware,intel iot hub,intel iot internship,iot in intel,intel iot kit,intel iot linkedin" />
+    <meta name="author" content="Pendyala Deepak Sai" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <!-- Tailwind CSS (via CDN for simplicity) -->
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+    <link href="https://cdn.jsdelivr.net/npm/material-tailwind@latest/css/material-tailwind.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/css/main.css" />
+</head>
+
+<body>
+    <div id="page-wrapper">
+
+            <!-- Header -->
+            <section id="header">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+            
+                            <!-- Logo -->
+                            <h1><a href="images/banner.png" id="logo">Intel IoT Club</a></h1>
+            
+                            <!-- Nav -->
+                            <nav id="nav">
+                                <a href="index.html">Homepage</a>
+                                
+                                <a href="gallery.html">Gallery</a>
+                                <a href="completed_projects.html">Project Gallery</a>
+                                <a href="project.html">Projects 1O1</a>
+                                <a href="https://linktr.ee/inteliotclub">Socials</a>
+                                
+                            </nav>
+            
+                        </div>
+                    </div>
+                </div>
+            
+            </section>
+
+
+        <section id="projects">
+            <div class="container grid grid-cols-1 md:grid-cols-3 gap-12 mt-12 mb-12" id="projects-grid">
+                <!-- Projects cards will be populated here using JavaScript -->
+            </div>
+        </section>
+
+    </div>
+    <!-- Copyright -->
+    <div id="copyright">
+        &copy; 2023 Intel IoT Club. All rights reserved. | Email us @ <a href="mailto:inteliotclub@cb.amrita.edu">
+            inteliotclub@cb.amrita.edu
+        </a>
+    </div>
+
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script>
+        // Fetch the projects data from assets/projects.json
+        fetch('assets/projects.json')
+            .then(response => response.json())
+            .then(data => {
+                // Get the projects grid element
+                const projectsGrid = document.getElementById('projects-grid');
+
+                // Loop through each project and add it to the grid
+                data.forEach(project => {
+                    const projectCard = document.createElement('div');
+                    projectCard.classList.add('relative', 'flex', 'w-96', 'flex-col', 'rounded-xl', 'bg-white', 'bg-clip-border', 'text-gray-700', 'shadow-md');
+
+                    projectCard.innerHTML = `
+                    <div class="relative mx-4 h-56 -mt-6 overflow-hidden rounded-xl bg-blue-gray-500 bg-clip-border text-white shadow-lg shadow-blue-gray-500/40">
+                        <img src="${project.ImageURL}" alt="Project Image", class="object-cover object-center w-full h-full">
+                    </div>
+                    <div class="p-6">
+                        <h5 class="mb-2 block font-sans text-xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
+                            ${project.Title}
+                        </h5>
+                        <p class="block font-sans text-base font-light leading-relaxed text-inherit antialiased">
+                            ${project.Name} - ${project.Rollnumber}
+                        </p>
+                    </div>
+                    <div class="p-6 pt-0">
+                        <a href="${project.DevMesh}" class="select-none rounded-lg bg-red-500 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-red-500/20 transition-all hover:shadow-lg hover:shadow-red-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none">
+                            View Project
+                        </a>
+                    </div>
+                `;
+
+                    projectsGrid.appendChild(projectCard);
+                });
+            });
+    </script>
+
+</body>
+
+</html>
